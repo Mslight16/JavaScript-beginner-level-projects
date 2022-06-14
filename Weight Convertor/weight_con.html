@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Convertor</title>
+    <link rel="stylesheet" href="weight_con.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Weight Convertor <br/>(Kg to pounds)</h1>
+        <p>Enter weight value in Kilograms: </p>
+        <input type="number" id="inputKg" placeholder="Kilograms"
+        oninput="kg_Convertor(this.value)" onchange="kg_Convertor(this.value)">
+        
+        <p>Your weight in Pounds is: </p>
+        <div class="output" id="outputPounds"></div>
+    </div>
+
+    <div id="container">
+        <h1>Weight Convertor <br/>(Pounds to Kg)</h1>
+        <p>Enter weight value in Pounds: </p>
+        <input type="number" id="inputPounds" placeholder="Pounds"
+        oninput="p_Convertor(this.value)" onchange="p_Convertor(this.value)">
+        <!-- <button onclick="p_Convertor(valNumb)">convert</button> -->
+       
+        
+        <p>Your weight in Kilograms is: </p>
+        <div class="output" id="outputKg"></div>
+    </div>
+
+    <script src="weight_con.js "></script>
+    
+</body>
+</html>

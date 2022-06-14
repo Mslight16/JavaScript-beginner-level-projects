@@ -1,0 +1,33 @@
+body{
+    background-color: #4d91e2;
+}
+#wrapper{
+    width: 750px;
+    height: 350px;
+    background-color: yellow;
+    margin-top: 120px;
+    margin-left: 220px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+#btn{
+    background-color: red;
+    color: #fff;
+    padding: 12px;
+    border-style: none;
+    font-size: large;
+    font-weight: bold;
+    width: 100px;
+}
+.num{
+    font-size: 45px;
+    font-weight: bold;
+    border: 5px solid green;
+    padding: 50px;
+}
+
+.symbol{
+    font-size: 45px;
+    font-weight: bold;
+}

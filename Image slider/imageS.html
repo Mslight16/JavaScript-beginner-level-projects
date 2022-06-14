@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="imageS.css">
+</head>
+<body>
+    <h1 style="color: black;text-align: center; max-width: 1000px;position: relative;">
+        Image Slider
+    </h1></br></b>
+
+    <div id="wrapper" style="max-width: 1000px;position: relative;">
+    <img class="slide" src="images/img1.png" alt="img1" style="width: 100%;">
+    <img class="slide" src="images/img2.png" alt="img2" style="width: 100%;">
+    <img class="slide" src="images/img3.png" alt="img3" style="width: 100%;">
+    <img class="slide" src="images/img4.png" alt="img4" style="width: 100%;">
+    <img class="slide" src="images/img5.jpg" alt="img5" style="width: 100%;">
+    <img class="slide" src="images/img6.jpg" alt="img6" style="width: 100%;">
+    <a class="btn1" style="position: absolute;top: 45%;left: 0;" onclick="plusDivs(-1)"><span class="btn" id="btnl">&lt;</span></a>
+    <a class="btn2" style="position: absolute;top: 45%;right: 0;" onclick="plusDivs(1)"><span class="btn" id="btnr">&gt;</span></a>
+    
+</div>
+
+    
+<script src="imageS.js"></script>
+
+</body>
+</html>
